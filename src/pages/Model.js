@@ -36,8 +36,6 @@ const Model = () => {
                 z: 3,                 // Final scale on the z-axis (zoom in effect)
                 duration: 3,          // Animation duration
                 ease: "power2.out",   // Easing for smooth effect
-                scale: 10,
-                marker: true
             });
         }
     }, []);
